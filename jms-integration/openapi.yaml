@@ -6,7 +6,7 @@ info:
 servers:
 - url: http://localhost:8290/orderpayment
 paths:
-  /:
+  /orderpayment:
     post:
       responses:
         default:
