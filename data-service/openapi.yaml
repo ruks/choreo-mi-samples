@@ -15,6 +15,9 @@ paths:
             type: integer
           required: true
           description: Numeric ID of the Employee
+          examples:
+            default:
+              value: 14001
       responses:
         '200':
           description: A user object.
