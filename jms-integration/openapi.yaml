@@ -8,6 +8,19 @@ servers:
 paths:
   /orderpayment:
     post:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+            examples:
+              default:
+                value:
+                  Payment:
+                    Id: '1'
+                    Amount: '100'
+                  
       responses:
         default:
           description: Default response
